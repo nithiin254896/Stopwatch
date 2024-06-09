@@ -1,10 +1,3 @@
-:root {
-  --prime-color: white;
-  --text: #3b3a3a;
-  --bg: black;
-  --btn-bg: #333333;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   background-image: url(./Background-image.jpg);
@@ -16,8 +9,8 @@ h1 {
   text-align: center;
   align-items: center;
   margin: 0px;
-  background-color: var(--bg);
-  color: var(--prime-color);
+  background-color: black;
+  color: white;
   padding: 5px;
 }
 
@@ -29,7 +22,7 @@ h1 {
   top: 70px;
   width: 50%;
   height: 300px;
-  background-color: var(--bg);
+  background-color: black;
   border-radius: 15px;
   box-shadow: 10px 6px 8px 2px rgba(0, 0, 0, 0.2);
 }
@@ -39,48 +32,48 @@ h1 {
   justify-content: center;
   font-size: 80px;
   font-weight: 400;
-  color: var(--prime-color);
+  color: white;
 }
 
 .container button {
-    background-color: var(--btn-bg);
-    font-size: 25px;
-    font-weight: 300;
-    padding: 10px 20px;
-    color: var(--prime-color);
-    border: 3px solid #fff;
-    border-radius: 12px;
-    cursor: pointer;
-    font-family: consolas, monospace;
+  background-color: #333333;
+  font-size: 25px;
+  font-weight: 300;
+  padding: 10px 20px;
+  color: white;
+  border: 3px solid #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: consolas, monospace;
 
-    &:hover {
-        background-color: var(--bg);
-    }
+  &:hover {
+    background-color: black;
+  }
 }
 
 @media (max-width: 768px) {
-    #displayTime {
-      font-size: 3rem;
-    }
-  
-    .container button {
-      font-size: 1rem;
-      padding: 8px 16px;
-    }
+  #displayTime {
+    font-size: 3rem;
   }
-  
-  @media (max-width: 480px) {
-    h1 {
-      font-size: 1.5rem;
-      padding: 5px 10px;
-    }
-  
-    #displayTime {
-      font-size: 2rem;
-    }
-  
-    .container button {
-      font-size: 0.875rem;
-      padding: 6px 12px;
-    }
+
+  .container button {
+    font-size: 1rem;
+    padding: 8px 16px;
   }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+    padding: 5px 10px;
+  }
+
+  #displayTime {
+    font-size: 2rem;
+  }
+
+  .container button {
+    font-size: 0.875rem;
+    padding: 6px 12px;
+  }
+}
