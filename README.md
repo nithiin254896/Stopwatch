@@ -1,5 +1,5 @@
-# JavaScript Stopwatch
- 
+# Stopwatch
+
 A simple, accurate, and responsive stopwatch built using HTML, CSS, and JavaScript. This project provides a functional stopwatch that can start, stop, and reset, displaying the elapsed time in hours, minutes, seconds, and milliseconds.
 
 Features
