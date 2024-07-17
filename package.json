@@ -1,0 +1,16 @@
+{
+  "name": "stopwatch",
+  "version": "1.0.0",
+  "description": "A simple, accurate, and responsive stopwatch built using HTML, CSS, and JavaScript. This project provides a functional stopwatch that can start, stop, and reset, displaying the elapsed time in hours, minutes, seconds.",
+  "main": "script.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yarn": "^1.22.22"
+  }
+}
